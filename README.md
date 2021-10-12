@@ -30,7 +30,7 @@ Contextual DB Schema definition file (db_schema_definitions/db_schema_definition
     - `vegetation_total_cover_meth`
 
 - Field name changes:
-    - `gavel_percent_meth` changed to `gravel_meth`
+    - `gravel_percent_meth` changed to `gravel_meth`
     - `length` changed to `host_length`
     - `tot_depth_water_meth` changed to `tot_depth_water_col_meth`
     - `tot_n_meth` changed to `tot_nitro_meth`
