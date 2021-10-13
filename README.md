@@ -5,6 +5,11 @@ Contextual DB Schema definition file (db_schema_definitions/db_schema_definition
 
 **Version history**
 
+**3.0.1**
+
+**Change summary**
+- Added: `Air [ENVO_00002005]` and associated definition to `controlled_vocab_0`
+
 **3.0.0**
 
 **Change summary**
