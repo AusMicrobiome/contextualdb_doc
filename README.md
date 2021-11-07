@@ -5,6 +5,16 @@ Contextual DB Schema definition file (db_schema_definitions/db_schema_definition
 
 **Version history**
 
+**3.1.0**
+
+**Change summary**
+
+- Fields added to database schema:
+    - `cast_id`
+    - `rosette_position`
+    - `synonyms`
+- Added definitions to `Field_Definition` 
+
 **3.0.1**
 
 **Change summary**
