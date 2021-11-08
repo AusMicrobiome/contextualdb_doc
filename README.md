@@ -5,6 +5,12 @@ Contextual DB Schema definition file (db_schema_definitions/db_schema_definition
 
 **Version history**
 
+**3.1.1**
+
+**Change summary**
+
+- Fixed error in `rubidium_meth` dType
+
 **3.1.0**
 
 **Change summary**
