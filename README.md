@@ -5,6 +5,13 @@ Contextual DB Schema definition file (db_schema_definitions/db_schema_definition
 
 **Version history**
 
+**3.1.2**
+
+**Change summary**
+
+- Fixed error with schema sheet version number
+    - Schema sheet version number for release 3.1.1 was not updated (Released as 3.1.0). Updated to reflect current version.
+
 **3.1.1**
 
 **Change summary**
