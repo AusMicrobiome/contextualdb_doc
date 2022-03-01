@@ -5,6 +5,24 @@ Contextual DB Schema definition file (db_schema_definitions/db_schema_definition
 
 **Version history**
 
+**3.2.0**
+
+**Change summary**
+
+- Fields added to database schema: 
+    - `collection_permit`
+    - `hyperspectral_analysis`
+    - `hyperspectral_analysis_meth`
+- Changes made to the following field definitions:
+    - `am_environment` (definition expanded for clarity)
+    - `chlorophyll_c1` (previous definition reflected definition for `chlorophyll_c1c2`)
+    - `chlorophyll_c1_meth` (previous definition reflected definition for `chlorophyll_c1c2_meth`)
+    - `chlorophyll_c1c2` (previous definition reflected definition for `chlorophyll_c1`)
+    - `chlorophyll_c1c2_meth` (previous definition reflected definition for `chlorophyll_c1_meth`)
+- Changed `am_environment` value from `Soil and Marine` to `Marine` for the fields:
+    - `sio2`
+    - `sio2_meth`
+
 **3.1.2**
 
 **Change summary**
