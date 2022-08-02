@@ -5,6 +5,24 @@ Contextual DB Schema definition file (db_schema_definitions/db_schema_definition
 
 **Version history**
 
+**4.0.0**
+
+**Change summary**
+
+- Fields added to database schema:
+    - `bicarbonate`
+    - `bicarbonate_meth`
+    - `carbonate`
+    - `carbonate_meth`
+- Fields deleted from database schema:
+    - `carbonate_bicarbonate`
+    - `carbonate_bicarbonate_meth`
+- Field name changes:
+    - `synecochoccus` to `synechococcus`
+    - `synecochoccus_meth` to `synechococcus_meth`
+- Other changes 
+    - Fixed typographical errors
+
 **3.2.0**
 
 **Change summary**
