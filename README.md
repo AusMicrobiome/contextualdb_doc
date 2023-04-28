@@ -1,7 +1,7 @@
 # Docs related to Contextual DB
 Contextual DB Schema definition file (db_schema_definitions/db_schema_definitions.xlsx)
 
-**Units and definitions align where possible with MIxS v5.0 (https://gensc.org/mixs/)**
+**Units and definitions align where possible with MIxS v5.0 ([https://gensc.org/index.html](https://www.gensc.org/index.html))**
 
 **Version history**
 
@@ -14,6 +14,8 @@ Contextual DB Schema definition file (db_schema_definitions/db_schema_definition
     - `cation_exchange_capacity` from `TEXT` to `NUMERIC`
     - `conductivity_aqueous` from `TEXT` to `NUMERIC`
     - `grazing_number` from `TEXT` to `NUMERIC`
+
+- Fixed broken link to Genomic Standards Consortium
 
 **4.0.0**
 
