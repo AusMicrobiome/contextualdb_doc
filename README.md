@@ -5,6 +5,19 @@ Contextual DB Schema definition file (db_schema_definitions/db_schema_definition
 
 **Version history**
 
+**4.2.0**
+
+**Change summary**
+
+- Modified datatype for the following fields:
+    - `collection_date` from `TEXT` to `DATETIME`
+    - `vegetation_total_cover` from `TEXT` to `NUMERIC`
+    - `water_holding_capacity` from `TEXT` to `NUMERIC`
+
+- Modified units definition
+    - `conductivity` from `deci siemens per meter` to `decisiemens per meter`
+    - Some `micro (μ)` characters in `Units` column encoded with the legacy unicode `(U+00B5)` symbol have been replaced with the unicode `(U+03BC)` micro symbol
+
 **4.1.0**
 
 **Change summary**
