@@ -13,6 +13,8 @@ Contextual DB Schema definition file (db_schema_definitions/db_schema_definition
     - `collection_date` from `TEXT` to `DATETIME`
     - `vegetation_total_cover` from `TEXT` to `NUMERIC`
     - `water_holding_capacity` from `TEXT` to `NUMERIC`
+    - `tot_org_carb` from `TEXT` to `NUMERIC`
+
 
 - Modified units definition
     - `conductivity` from `deci siemens per meter` to `decisiemens per meter`
