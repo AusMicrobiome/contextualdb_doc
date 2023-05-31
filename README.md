@@ -19,6 +19,7 @@ Contextual DB Schema definition file (db_schema_definitions/db_schema_definition
 - Modified units definition
     - `conductivity` from `deci siemens per meter` to `decisiemens per meter`
     - Some `micro (μ)` characters in `Units` column encoded with the legacy unicode `(U+00B5)` symbol have been replaced with the unicode `(U+03BC)` micro symbol
+    - Reported units with a direct 1:1 relationship were previously defined in the `Units column` (e.g., mg/m3 or μg/L), are now represented with a single unit.
 
 **4.1.0**
 
