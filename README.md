@@ -5,6 +5,22 @@ Contextual DB Schema definition file (db_schema_definitions/db_schema_definition
 
 **Version history**
 
+**4.2.0**
+
+**Change summary**
+
+- Modified datatype for the following fields:
+    - `vegetation_total_cover` from `TEXT` to `NUMERIC`
+    - `water_holding_capacity` from `TEXT` to `NUMERIC`
+    - `tot_org_carb` from `TEXT` to `NUMERIC`
+    - `sample_metadata_ingest_date` from `DATETIME` to `TEXT` (changed to play nicely with BPA data format checks during ingest into AM portal)
+
+- Modified units definition
+    - `conductivity` from `deci siemens per meter` to `decisiemens per meter`
+    - To meet BPA ingest standards some `micro (μ)` characters in `Units` column encoded with the legacy unicode `(U+00B5)` symbol have been replaced with the unicode `(U+03BC)` micro symbol.
+    - Reported units with a direct 1:1 relationship were previously defined in the `Units column` (e.g., mg/m3 or μg/L), are now represented with a single unit.
+    - Reported units for `collection_date` has been modified to `yyyy-mm-ddThh-mm-ssZ`. An explanation of how samples without time stamps are defined has been added to the field definition.
+
 **4.1.0**
 
 **Change summary**
