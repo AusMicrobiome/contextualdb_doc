@@ -13,6 +13,7 @@ Contextual DB Schema definition file (db_schema_definitions/db_schema_definition
     - `vegetation_total_cover` from `TEXT` to `NUMERIC`
     - `water_holding_capacity` from `TEXT` to `NUMERIC`
     - `tot_org_carb` from `TEXT` to `NUMERIC`
+    - `sample_metadata_ingest_date` from `DATETIME` to `TEXT` (changed to play nicely with BPA data format checks during ingest into AM portal)
 
 - Modified units definition
     - `conductivity` from `deci siemens per meter` to `decisiemens per meter`
